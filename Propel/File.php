@@ -11,6 +11,7 @@ class File extends BaseFile implements FileInterface
      * Set file name
      *
      * @param string $name
+     * @return $this
      */
     public function setName($name)
     {
